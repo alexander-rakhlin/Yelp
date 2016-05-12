@@ -21,19 +21,20 @@ NVIDIA GPU is not required but recommended. Extracting image features on CPU may
 
 ## Download:
 * The training and test datasets and other data can be downloaded from [here](https://www.kaggle.com/c/yelp-restaurant-photo-classification/data)
-* Get pretrained Caffe models **BVLC Reference CaffeNet** and **BVLC AlexNet** as described [here](http://caffe.berkeleyvision.org/model_zoo.html). Download the other two models from Places CNN project: [Places205-AlexNet](http://places.csail.mit.edu/model/placesCNN_upgraded.tar.gz), [Hybrid-AlexNet](http://places.csail.mit.edu/model/hybridCNN_upgraded.tar.gz)  
+* Get pretrained Caffe models **BVLC Reference CaffeNet** and **BVLC AlexNet** as described [here](http://caffe.berkeleyvision.org/model_zoo.html). Download the other two models from Places CNN project: [Places205-AlexNet](http://places.csail.mit.edu/model/placesCNN_upgraded.tar.gz), [Hybrid-AlexNet](http://places.csail.mit.edu/model/hybridCNN_upgraded.tar.gz)
+
 Notice: customized prototxts and mean files already available in the **models** folder
 
 ## How to generate the solution(s):
 1. After you downloaded and extracted datasets and models, adjust paths in paths.py and set caffe_mode (currently set to CPU)
-2. Successively run (make sure you have enough disk space, see above):
-python Stage1_ExtractImageFeatures.py 
-python Stage2_CreateBuisnessFeatures.py 
-python Stage3_BlendLRModelsCV.py 
-python Stage4_KerasXGBoostMEUFsubmission.py 
-3. You will get three submissions: 
-all_models_blendLR_CV.csv 
-keras_xgboost_blend_noMEUF.csv
+2. Successively run (make sure you have enough disk space, see above):  
+python Stage1_ExtractImageFeatures.py  
+python Stage2_CreateBuisnessFeatures.py  
+python Stage3_BlendLRModelsCV.py  
+python Stage4_KerasXGBoostMEUFsubmission.py  
+3. You will get three submissions:  
+all_models_blendLR_CV.csv  
+keras_xgboost_blend_noMEUF.csv  
 keras_xgboost_blend_MEUF.csv
 
 Enjoy!
