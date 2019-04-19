@@ -39,4 +39,4 @@ keras_xgboost_blend_MEUF.csv
 
 Enjoy!
 
-Read my article ["What restaurant would your computer like to go to?"](https://www.linkedin.com/pulse/article/what-restaurant-would-your-computer-like-go-alexander-rakhlin) and like it if you like it.
+Read my article ["What restaurant would your computer like to go to?"](https://www.linkedin.com/pulse/what-restaurant-would-your-computer-like-go-alexander-rakhlin/) and like it if you like it.
